@@ -1,0 +1,87 @@
+
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: darkgreen;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .navbar img {
+    height: 60px;
+    border-radius: 15px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Form container */
+  .update-form {
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Form heading */
+  .update-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #003366;
+  }
+  
+  /* Input styling */
+  .update-form input,
+  .update-form select {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  /* Label text (optional: if using inline labels, can omit this section) */
+  .update-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+  }
+  
+  /* Button styling */
+  .update-form button {
+    background-color:darkgreen;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-form button:hover {
+    background-color:rgb(91, 138, 91);
+  }
+  

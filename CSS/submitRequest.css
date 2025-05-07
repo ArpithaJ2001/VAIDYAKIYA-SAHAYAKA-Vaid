@@ -1,0 +1,66 @@
+/* Center the form on the page */
+.max-w-2xl {
+  max-width: 700px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.max-w-2xl h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Input fields and labels */
+.max-w-2xl form input,
+.max-w-2xl form select,
+.max-w-2xl form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.2s ease;
+}
+
+.max-w-2xl form input:focus,
+.max-w-2xl form select:focus,
+.max-w-2xl form textarea:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Button */
+.max-w-2xl button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.max-w-2xl button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Success message */
+.bg-green-100 {
+  background-color: #d4edda;
+  border-left: 5px solid #28a745;
+  padding: 15px;
+  border-radius: 8px;
+  color: #155724;
+  font-weight: 500;
+}

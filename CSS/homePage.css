@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.logo-img img {
+  height: 40px;
+  width: auto;
+}
+
+.homepage {
+  min-height: 100vh;
+  background-color: #b6d7eb;
+}
+
+.navbar {
+  background-color: #2e7d32;
+  color: white;
+  padding: 12px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.registration-form {
+  background-color: #ffffff;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.registration-form h1 {
+  text-align: center;
+  color: darkblue;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.registration-form h3 {
+  margin-top: 24px;
+  color: #2e7d32;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.registration-form label {
+  font-weight: 500;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.registration-form input,
+.registration-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.registration-form input[type="checkbox"] {
+  width: auto;
+  margin-left: 10px;
+  margin-right: 8px;
+}
+
+.registration-form button {
+  margin-right: 12px;
+  padding: 10px 20px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.registration-form button:hover {
+  background-color: #256128;
+}
+
+.text-secondary {
+  color: #333;
+  font-size: 18px;
+  margin-top: 25px;
+}
